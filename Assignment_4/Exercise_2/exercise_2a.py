@@ -1,5 +1,5 @@
-player1_input = "Player 1: Please choose rock, paper or scissors: "
-player2_input = "Player 2: Please choose rock, paper or scissors: "
+player1_input 	= "Player 1: Please choose rock, paper or scissors: "
+player2_input 	= "Player 2: Please choose rock, paper or scissors: "
 
 paper_rock 		= "Paper covers Rock"
 paper_spock		= "Paper disproves Spock"
@@ -67,4 +67,4 @@ if winner == "1":
 elif winner == "2":
 	print "The winner is player 2."
 elif winner == "both":
-	print "It's a tie."
+	print "It's a tie." 
