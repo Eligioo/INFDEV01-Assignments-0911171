@@ -2,9 +2,15 @@ player1_input = "Player 1: Please choose rock, paper or scissors: "
 player2_input = "Player 2: Please choose rock, paper or scissors: "
 
 paper_rock 		= "Paper covers Rock"
+paper_spock		= "Paper disproves Spock"
 rock_scissors  	= "Rock crushes Scissors"
+rock_lizard		= "Rock crushes Lizard"
+scissors_lizard = "Scissors decapitates Lizard"
 scissors_paper	= "Scissors cuts Paper"
-tie				= "It's a tie."
+lizard_paper	= "Lizard eats Paper"
+lizard_spock	= "Lizard poisons Spock"
+spock_rock		= "Spock vaporizes Rock"
+spock_scissors	= "Spock smashes Scissors"
 
 player1_response = raw_input(player1_input).lower()
 
