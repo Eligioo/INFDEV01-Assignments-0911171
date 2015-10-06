@@ -1,15 +1,15 @@
-import math
-sAsterisks = ""
-iNumber = 10
-iRadius = iNumber/2
-for i in range (0, iNumber+2):
-    for o in range (0, iNumber):
-        iYdist = abs(i - iRadius)
-        iXdist = abs(o - iRadius)
-        if int(math.ceil(math.sqrt(iYdist**2 + iXdist**2))) < iRadius:
-            sAsterisks += "*"
+﻿import math
+user_input = input("Give a size for the circle: (positive integer) ")
+radius = user_input/2
+result = ""
+for x in range(user_input):
+    for y in range(user_input):
+        DistX = x - radius
+        DistY = y - radius
+        Dist = math.sqrt((DistY**2) + (DistX**2))
+        if Dist < radius:
+            result += "*"
         else:
-            sAsterisks += " "
-    sAsterisks += "\n"
-
-print sAsterisks
+            result += " "
+    result += "\n"
+print result
