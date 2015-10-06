@@ -26,8 +26,6 @@ def Program():
     elif key == 99:
         clear()
 
-    print key
-
 
 run(Program)
 from End import *
