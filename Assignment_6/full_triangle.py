@@ -1,4 +1,4 @@
-height = input("Give the max height of the triangle")
+height = input("Give the max height of the triangle: ")
 counter = 1
 result = ""
 
