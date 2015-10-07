@@ -12,7 +12,8 @@ lizard_spock	= "Lizard poisons Spock"
 spock_rock		= "Spock vaporizes Rock"
 spock_scissors	= "Spock smashes Scissors"
 
-player1_response = raw_input(player1_input).lower()
+player1_response = ""
+player2_response = ""
 
 while (
 		player1_response.lower() != "rock" and
@@ -23,7 +24,6 @@ while (
 		):
 	player1_response = raw_input(player1_input).lower()
 
-player2_response = raw_input(player2_input).lower()
 
 while (
 		player2_response.lower() != "rock" and

@@ -1,4 +1,4 @@
-#ord -> return number
+#ord -> return ascii
 #chr -> return letter
 textInput   = raw_input("What string has to be shifted? ")
 intShift    = input("How many steps do I need to shift? ")
