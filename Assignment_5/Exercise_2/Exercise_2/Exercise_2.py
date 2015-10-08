@@ -32,4 +32,3 @@ else:
     result = "Password is weak"
 
 print result
-
